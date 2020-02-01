@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor_overlay/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/etc/perf/targetconfig.xml \
     vendor/essential/mata/proprietary/vendor_overlay/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/etc/perf/targetresourceconfigs.xml \
     vendor/essential/mata/proprietary/vendor_overlay/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/etc/powerhint.xml \
+    vendor/essential/mata/proprietary/vendor_overlay/lib/hw/audio.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/hw/audio.primary.msm8998.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/lib-imsrcs-v2.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/lib-uceservice.so \
@@ -109,10 +110,12 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor_overlay/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libqti-perfd.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libqti-util.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libqti-utils.so \
+    vendor/essential/mata/proprietary/vendor_overlay/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libtinycompress.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/sensors.hal.tof.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/essential/mata/proprietary/vendor_overlay/lib64/hw/audio.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/hw/audio.primary.msm8998.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/lib-imsrcs-v2.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/lib-uceservice.so \
@@ -122,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libqti-perfd.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libqti-util.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libqti-utils.so \
+    vendor/essential/mata/proprietary/vendor_overlay/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libtinycompress.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/sensors.hal.tof.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/essential/mata/proprietary/vendor_overlay/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/vendor.qti.hardware.iop@2.0.so \
